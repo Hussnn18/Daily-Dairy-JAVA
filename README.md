@@ -16,3 +16,4 @@ Total Duration: 4 Weeks
 ---
 
 🗂 Folder Structure
+Week-1/.gitkeep
