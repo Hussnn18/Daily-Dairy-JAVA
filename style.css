@@ -70,6 +70,38 @@
       box-shadow: 0 6px 15px rgba(0,0,0,0.15);
     }
 
+.documents-section {
+  margin-top: 40px;
+  text-align: center;
+}
+.doc-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.doc-card {
+  display: block;
+  width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s;
+}
+.doc-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.doc-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.doc-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
     
     main {
       max-width: 1000px;
